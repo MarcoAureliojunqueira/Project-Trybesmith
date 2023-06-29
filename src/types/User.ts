@@ -5,4 +5,3 @@ export type User = {
   level: 'fake';
   password: 'fake';
 };
- 
