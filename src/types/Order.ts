@@ -1,5 +1,16 @@
+export type OrderId = {
+  id: number;
+
+};
+
 export type Order = {
-  id: 'fake';
-  userId: 'fake';
-  productId?: 'fake';
+  id: number;
+  userId: number;
+  productIds?: OrderId[];
+};
+
+export type OrderTiparRetorno = {
+  id: number;
+  userId: number;
+  productIds?: number[];
 };
